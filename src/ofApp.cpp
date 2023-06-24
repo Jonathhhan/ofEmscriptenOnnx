@@ -6,7 +6,7 @@ bool onnxModelIsLoaded;
 
 void onnx(std::string info, std::string inference) {
 	if (info == "status") {  
-		onnxModelStatus = "Onnx model loaded.";
+		onnxModelStatus = "Onnx model loaded. Click into the rectangle.";
 		onnxModelIsLoaded = true;
 	} else if (info == "inference") {
 		inferenceResult = inference;

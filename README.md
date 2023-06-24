@@ -15,3 +15,5 @@ Edit main.js for customising inference or changing the model.
 4. Copy the generated "bundle.min.js" and "ort-wasm-simd-threaded.wasm" from the generated onnx folder into the OF apps "onnx" folder (there should also be the .onnx model).
 5. Copy "html template.html" into "openFrameworks/libs/openFrameworksCompiled/project/emscripten".
 6. Compile the Open Frameworks app with Emscripten.
+
+https://onnx.handmadeproductions.de/

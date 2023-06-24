@@ -5,7 +5,9 @@ https://onnxruntime.ai/docs/
 
 
 The template "quick-start_onnxruntime-web-bundler" is basically this example: https://github.com/microsoft/onnxruntime-inference-examples/tree/main/js/quick-start_onnxruntime-web-bundler
-Edit main.js for costomising or changing the model.
+
+Edit main.js for customising inference or changing the model.
+
 1. npm install onnxruntime-web
 2. cd to folder "quick-start_onnxruntime-web-bundler".
 2. npm i

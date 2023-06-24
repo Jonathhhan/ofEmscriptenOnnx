@@ -12,6 +12,6 @@ Edit main.js for customising inference or changing the model.
 2. cd to folder "quick-start_onnxruntime-web-bundler".
 2. npm i
 3. npx webpack
-4. copy the generated "bundle.min.js" and "ort-wasm-simd-threaded.wasm" into the apps "onnx" folder (there should also be the .onnx model).
-5. copy "html template.html" into "openFrameworks/libs/openFrameworksCompiled/project/emscripten".
-6. compile the Open Frameworks app with Emscripten.
+4. Copy the generated "bundle.min.js" and "ort-wasm-simd-threaded.wasm" from the generated onnx folder into the OF apps "onnx" folder (there should also be the .onnx model).
+5. Copy "html template.html" into "openFrameworks/libs/openFrameworksCompiled/project/emscripten".
+6. Compile the Open Frameworks app with Emscripten.

@@ -6,7 +6,7 @@ var onnxSession;
 
 startOnnxSession = function() {
 	// create a new session and load the specific model.
-	ort.InferenceSession.create("onnx/model.onnx").then((session) => {
+	ort.InferenceSession.create("onnx/model.onnx", {executionProviders: ["wasm"] }).then((session) => {
 		onnxSession = session;
 		Module.onnx("status", "dummy");
 	});

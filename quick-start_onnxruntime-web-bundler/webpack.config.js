@@ -17,7 +17,7 @@ module.exports = () => {
         },
         plugins: [new CopyPlugin({
             // Use copy plugin to copy *.wasm to output folder.
-            patterns: [{ from: 'node_modules/onnxruntime-web/dist/*.wasm', to: '[name][ext]' }]
+            patterns: [{ from: 'node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.wasm', to: '[name][ext]' }]
         })],
         mode: 'production'
     }

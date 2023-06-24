@@ -12,7 +12,7 @@ startOnnxSession = function() {
 	});
 }
 
-onnxInference = function(destinationTextureID1, destinationTextureID2) {
+onnxInference = function() {
         // the model in this example contains a single MatMul node
         // it has 2 inputs: 'a'(float32, 3x4) and 'b'(float32, 4x3)
         // it has 1 output: 'c'(float32, 3x3)
